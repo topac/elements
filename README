@@ -1,0 +1,12 @@
+http://www.elementsthegame.com/
+
+Usage:
+
+$ ruby elements.rb user psw [[electrum=XXX] [won=XXX] [lost=XXX] [score=XXX]]
+Example:
+$ ruby elements.rb johnsnow kn0wsN0thing score=100000 won=80000 lost=80000 electrum=140000
+
+Do not set absurd values like lost=1, won=100000, electrum=10000000 or you'll get banned.  
+Just use the values of the example above.
+
+Works with ruby 1.9.3+ and the [httpclient gem](https://github.com/nahi/httpclient)
